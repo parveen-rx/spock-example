@@ -2,6 +2,6 @@ package spock.example
 
 class Inventory {
 
-    List<Product>allProducts
+    List<Product> allProducts
 
 }

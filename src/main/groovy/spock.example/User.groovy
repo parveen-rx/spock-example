@@ -37,17 +37,14 @@ class User {
 
     //Todo Mock example
     String resetPasswordAndSendEmail() {
-        String newPassword = "dummmmmmmy"
-        this.password = encyryptPassword(newPassword)
+        String newPassword = "dummy_value"
+        this.password = getEncryptPassword(newPassword)
         emailService.sendCancellationEmail(this, newPassword)
     }
 
     //Todo Stub example
-    String encyryptPassword(String pwd) {
-        String encryptedPassword
-        if (true) {
-            encryptedPassword = passwordEncrypterService.encrypt(pwd)
-        }
+    String getEncryptPassword(String pwd) {
+        String encryptedPassword = passwordEncrypterService.encrypt(pwd)
         return encryptedPassword
     }
 

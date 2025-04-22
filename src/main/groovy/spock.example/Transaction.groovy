@@ -35,7 +35,7 @@ class Transaction {
         return discount
     }
 
-    List<Product> getAllPopularProducts(){
+    List<Product> getAllPopularProducts() {
         List<Product> popularProducts = Product.getCurrentProducts()
         return popularProducts.findAll{it.isPopular}
     }
