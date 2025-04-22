@@ -1,23 +1,48 @@
-## Grails 6.2.0 Documentation
+# Spock Example Project
 
-- [User Guide](https://docs.grails.org/6.2.0/guide/index.html)
-- [API Reference](https://docs.grails.org/6.2.0/api/index.html)
-- [Grails Guides](https://guides.grails.org/index.html)
----
+Welcome to the Spock Example Project! This repository contains example specifications and build scripts for Gradle to help you get started with Spock.
 
-## Feature geb documentation
+## Prerequisites
 
-- [Grails Geb Functional Testing for Grails documentation](https://github.com/grails3-plugins/geb#readme)
+- JDK 17 or later
+- Gradle (use `gradlew` wrapper)
+- Grails 6.2.0 or later
 
-- [https://www.gebish.org/manual/current/](https://www.gebish.org/manual/current/)
+## Getting Started
 
-## Feature scaffolding documentation
+### Building with Gradle
 
-- [Grails Scaffolding Plugin documentation](https://grails.github.io/scaffolding/latest/groovydoc/)
+To build the project using Gradle, run the following command:
 
-- [https://grails-fields-plugin.github.io/grails-fields/latest/guide/index.html](https://grails-fields-plugin.github.io/grails-fields/latest/guide/index.html)
+```
+./gradlew clean
+```
 
-## Feature asset-pipeline-grails documentation
+Downloaded files, including the Gradle distribution itself, will be stored in the Gradle user home directory (typically `user_home/.gradle`).
 
-- [Grails Asset Pipeline Core documentation](https://www.asset-pipeline.com/manual/)
+## IDE Integration
 
+### Creating an IDEA Project
+
+Just open the project directory (open build.gradle as project) with IntelliJ IDEA, and it should auto-detect the project settings.
+
+### Running Tests with Gradle
+
+To run the project test cases using Gradle, run the following command:
+
+```
+./gradlew test
+```
+
+## Further Resources
+
+- [Spock homepage](https://spockframework.org/)
+- [Grails UT,FT,IT](https://docs.grails.org/6.2.2/guide/testing.html)
+- [Grails Testing Framework](https://testing.grails.org/latest/guide/index.html)
+
+## License
+
+This project is licensed under the Apache-2.0 License - see the LICENSE file for details.
+
+## Contributor
+- [parveen-rx](https://github.com/parveen-rx)
